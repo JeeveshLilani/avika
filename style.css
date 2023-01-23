@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    color: white;
+    background-image: url(front.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: no-clip;
+    background-size: cover;
+}
+
+h1{
+    position: relative;
+    top: 220px;
+}
+
+#gift{
+    width: 30%;
+    height: 15%;
+    position: relative;
+    top: 250px;
+}
+
+#footer{
+    font-size: large;
+    position: relative;
+    top: 300px;
+}
