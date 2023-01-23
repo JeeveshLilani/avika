@@ -1,0 +1,55 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    padding: 20px;
+}
+
+#cake{
+    position: relative;
+    top: 280px;
+    opacity: 0;
+    animation: cakeka;
+    animation-duration: 12s;
+    animation-delay: 35s;
+}
+
+@keyframes cakeka {
+    30%{opacity: 2;}
+    60%{opacity: 3;}
+    90%{opacity: 1;}
+}
+
+#ba2, #ba6{
+    right: 10px;
+}
+
+#ba2, #ba6, #ba3, #ba5{
+    position: absolute;
+    bottom: 0px;
+    opacity: 0;
+    animation: up;
+    animation-duration: 16s;
+    animation-iteration-count: 2;
+    animation-direction: top;
+}
+
+#ba3{
+    animation-delay: 10s;
+}
+#ba5{
+    animation-delay: 3s;
+}
+#ba6{
+    animation-delay: 6s;
+}
+
+@keyframes up{
+    100%{transform: translateY(-600px);}
+    70%{opacity: 1;}
+    75%{opacity: 0;}
+    100%{opacity: 0;}
+}
