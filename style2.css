@@ -13,7 +13,7 @@ html{
     top: 280px;
     opacity: 0;
     animation: cakeka;
-    animation-duration: 12s;
+    animation-duration: 15s;
     animation-delay: 33s;
 }
 
@@ -33,7 +33,7 @@ html{
     opacity: 0;
     animation: up;
     animation-duration: 12.5s;
-    animation-iteration-count: 4;
+    animation-iteration-count: 3;
     animation-direction: top;
 }
 
