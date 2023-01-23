@@ -14,7 +14,7 @@ html{
     opacity: 0;
     animation: cakeka;
     animation-duration: 12s;
-    animation-delay: 27.5s;
+    animation-delay: 33s;
 }
 
 @keyframes cakeka {
@@ -33,7 +33,7 @@ html{
     opacity: 0;
     animation: up;
     animation-duration: 12.5s;
-    animation-iteration-count: 1;
+    animation-iteration-count: 2;
     animation-direction: top;
 }
 
