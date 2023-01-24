@@ -13,18 +13,18 @@ html{
 
 h1{
     position: relative;
-    top: 220px;
+    top: 190px;
 }
 
 #gift{
     width: 30%;
     height: 15%;
     position: relative;
-    top: 250px;
+    top: 220px;
 }
 
 #footer{
     font-size: large;
     position: relative;
-    top: 300px;
+    top: 270px;
 }
