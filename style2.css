@@ -18,7 +18,7 @@ h1{
 
 #cake{
     position: relative;
-    top: 280px;
+    top: 600px;
     opacity: 0;
     animation: cakeka;
     animation-duration: 15s;
@@ -80,7 +80,7 @@ h1{
 
 #maincake{
     width: 80%;
-    height: 35%;
+    height: 23%;
     opacity: 2.5;
     animation-name: cakewala;
     animation-duration: 8s;
@@ -96,7 +96,7 @@ h1{
 
 #aachi{
     width: 100%;
-    height: 30%;
+    height: 25%;
     border: solid 2px whitesmoke;
 }
 
