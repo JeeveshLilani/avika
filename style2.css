@@ -25,7 +25,7 @@ h1{
     top: 600px;
     opacity: 0;
     animation: cakeka;
-    animation-duration: 15s;
+    animation-duration: 10s;
     animation-delay: 31s;
 }
 
@@ -73,7 +73,7 @@ h1{
     animation: letsgo;
     animation-iteration-count: infinite;
     animation-duration: 1000s;
-    animation-delay: 45s;
+    animation-delay: 41s;
 }
 
 @keyframes letsgo {
