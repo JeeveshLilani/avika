@@ -37,7 +37,7 @@ h1{
 
 #ba2, #ba6, #ba3, #ba5{
     position: absolute;
-    bottom: -0px;
+    bottom: -50px;
     opacity: 0;
     animation: up;
     animation-duration: 12.5s;
@@ -56,7 +56,7 @@ h1{
 }
 
 @keyframes up{
-    100%{transform: translateY(-600px);}
+    100%{transform: translateY(-500px);}
     20%{opacity: 1;}
     70%{opacity: 1;}
     75%{opacity: 0;}
