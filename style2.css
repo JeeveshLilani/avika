@@ -9,6 +9,10 @@ html{
     background-size: cover;
     padding: 20px;
     color: white;
+    text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
 }
 
 h1{
@@ -18,7 +22,7 @@ h1{
 
 #cake{
     position: relative;
-    top: 700px;
+    top: 600px;
     opacity: 0;
     animation: cakeka;
     animation-duration: 15s;
@@ -56,7 +60,7 @@ h1{
 }
 
 @keyframes up{
-    100%{transform: translateY(-500px);}
+    100%{transform: translateY(-900px);}
     20%{opacity: 1;}
     70%{opacity: 1;}
     75%{opacity: 0;}
